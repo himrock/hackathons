@@ -48,8 +48,8 @@ const Dashboard = (props) => {
             <div className={DashboardStyle.ButtonWrapper}>
                 <button className={DashboardStyle.addButton} onClick={() => { setVisible(true) }}>Add New challenge</button>
                 <input className={DashboardStyle.searchButton} type="search" placeholder="Search.." value={searchValue} onChange={handleSearch}></input>
-                <select className={DashboardStyle.selectButton} onChange={(e) => handleSelectChange(e)}>
-                    <option value="" disabled selected>Sort by</option>
+                <select defaultValue="default" className={DashboardStyle.selectButton} onChange={(e) => handleSelectChange(e)}>
+                    <option value="default" disabled>Sort by</option>
                     <option value="voteCount">Like</option>
                     <option value="date">Date</option>
                 </select>
