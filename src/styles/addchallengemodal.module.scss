@@ -1,0 +1,58 @@
+.displayBlock {
+  display: block;
+}
+
+.displayNone {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  background: #4c2a4c;
+  width: 50%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 4px;
+
+  .modalBody{
+
+  }
+}
+
+.close{
+    float: right;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+button[type="submit"]{
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    font-family: monospace;
+}
+
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 3px;
+  border: none;
+  margin: 6px 0px;
+}
+
+.checkboxList{
+    margin: 10px 0px;
+    .checkBox{
+        display: inline;
+        margin: 0px 10px;
+        color: white;
+    }
+}
+
+

@@ -1,0 +1,27 @@
+.headWrap{
+    position: fixed;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    width: 100%;
+    box-shadow: 0px 0px 6px 0px rgba(179, 176, 176, 0.5);
+    z-index: 999;
+    top: 0;
+    border-bottom: 2px solid #4c2a4c;
+
+    a{
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: bold;
+    }
+
+    .headerRight{
+        float: right;
+        right: 88px;
+        position: relative;
+    }
+}

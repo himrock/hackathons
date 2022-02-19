@@ -1,0 +1,26 @@
+.card{
+    background: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 7px;
+
+    li{
+        display: inline;
+        background: #5c3263;
+        padding: 5px;
+        margin: 0px 10px 0px 0px;
+        color: white;
+    }
+
+    .delete{
+        float: right;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        background: #4c2a4c;
+        color: white;
+        font-family: monospace;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
